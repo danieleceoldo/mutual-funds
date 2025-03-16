@@ -62,4 +62,4 @@ while True:
         mutual_funds.update({_: mutual_fund})
     mutual_funds_fname.write_text(yaml.safe_dump(mutual_funds))
 
-    time.sleep(5)
+    time.sleep(3600)
