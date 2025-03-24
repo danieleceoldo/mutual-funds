@@ -1,0 +1,59 @@
+telegram:
+  token: '7910119865:AAE0sDHkSMR35W2wdEeZgNprK1eprSM4hOg'
+  chat_id: '5459043780'
+
+mutual_funds:
+  BlackRock Global Funds - India Fund E2 (EUR):
+    code: '0P0000VHLM'
+    NAV:
+      max: 50
+      min: 40
+    max_abs_variation: 2
+  BlackRock Global Funds - Sustainable Energy Fund E2 (EUR):
+    code: '0P0000VHMS'
+    NAV:
+      max: 14
+      min: 12
+    max_abs_variation: 2
+  BlackRock Global Funds - World Gold Fund E2 (EUR):
+    code: '0P0000VHO3'
+    NAV:
+      max: 42
+      min: 36
+    max_abs_variation: 3
+  BlackRock Global Funds - World Healthscience Fund E2 (EUR):
+    code: '0P0000VHO7'
+    NAV:
+      max: 
+      min: 
+    max_abs_variation: 
+  BlackRock Global Funds - World Technology Fund E2 (EUR):
+    code: '0P0000VHOM'
+    NAV:
+      max: 80
+      min: 60
+    max_abs_variation: 3
+  JPMorgan Funds - China Fund A (acc) - USD:
+    code: 'F0GBR05VWX'
+    NAV:
+      max: 50
+      min: 40
+    max_abs_variation: 3
+  JPMorgan Funds - Global Natural Resources Fund D (acc) - EUR:
+    code: 'F0GBR064XS'
+    NAV:
+      max: 
+      min: 
+    max_abs_variation: 3
+  Morgan Stanley Investment Funds - Global Brands Fund C (EUR):
+    code: '0P0000MWCO'
+    NAV:
+      max: 
+      min: 
+    max_abs_variation: 3
+  Pictet-Global Megatrend Selection R EUR:
+    code: 'F0000026XE'
+    NAV:
+      max: 
+      min: 
+    max_abs_variation: 3
