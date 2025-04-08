@@ -6,22 +6,45 @@ mutual_funds:
   BlackRock Global Funds - India Fund E2 (EUR):
     code: '0P0000VHLM'
     NAV:
-      max: 50
+      max: 43
       min: 40
-    max_abs_variation: 3
+    max_abs_variation: 2
   BlackRock Global Funds - Sustainable Energy Fund E2 (EUR):
     code: '0P0000VHMS'
+    max_abs_variation: 2
   BlackRock Global Funds - World Gold Fund E2 (EUR):
     code: '0P0000VHO3'
+    max_abs_variation: 2
   BlackRock Global Funds - World Healthscience Fund E2 (EUR):
     code: '0P0000VHO7'
+    NAV:
+      max: 54
+      min: 50
+    max_abs_variation: 2
   BlackRock Global Funds - World Technology Fund E2 (EUR):
     code: '0P0000VHOM'
+    NAV:
+      max: 65
+      min: 58
+    max_abs_variation: 2
   JPMorgan Funds - China Fund A (acc) - USD:
     code: 'F0GBR05VWX'
+    NAV:
+      max: 42
+      min: 38
+    max_abs_variation: 2
   JPMorgan Funds - Global Natural Resources Fund D (acc) - EUR:
     code: 'F0GBR064XS'
+    max_abs_variation: 2
   Morgan Stanley Investment Funds - Global Brands Fund C (EUR):
     code: '0P0000MWCO'
+    NAV:
+      max: 85
+      min: 77
+    max_abs_variation: 2
   Pictet-Global Megatrend Selection R EUR:
     code: 'F0000026XE'
+    NAV:
+      max: 295
+      min: 270
+    max_abs_variation: 2

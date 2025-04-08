@@ -184,5 +184,7 @@ while True:
             logger.info('-'*80)
             logger.info('')
 
+            time.sleep(60)
+
 
     time.sleep(3600)
