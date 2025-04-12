@@ -149,7 +149,10 @@ while True:
             logger.info('')
             for _ in yaml.safe_dump(mutual_fund_update).splitlines():
                 logger.info(_)
-            mutual_funds.update(mutual_fund_update)
+            if name in mutual_funds:
+                mutual_funds[name].update(mutual_fund_update[name])
+            else:
+                mutual_funds.update(mutual_fund_update)
             mutual_funds_fname.write_text(yaml.safe_dump(mutual_funds))
 
             alert_message = ''
